@@ -1,0 +1,7 @@
+﻿{
+  "endpoint": "http://localhost:1339/",
+  "api_version": "v1",
+  "environment": {
+    "show_version": true
+  }
+}

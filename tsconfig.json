@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "noEmitOnError": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./build",
+      "lib": [ "es5", "es6", "dom", "scripthost", "es2015" ],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true
+    },
+    "compileOnSave": true,
+    "include": [
+      "types/*",
+      "src/**/*",
+      "src/assets/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "coverage",
+      "**/*.spec.ts",
+      "**/*.test.*",
+      "**/__mocks__/**"
+    ],
+    "files": [
+      "app.tsx"
+    ]
+  }
+  
+  
+  

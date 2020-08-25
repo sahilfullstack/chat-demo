@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html mozdisallowselectionprint
+      moznomarginboxes
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+
+    <!--<link rel="stylesheet" href="/src/assets/css/main.css?ver=1234" />-->
+    <script>
+        var pathname = window.location.pathname;
+        function addStyleSheet(params) {
+            // Get HTML head element
+            var head = document.getElementsByTagName('HEAD')[0];
+            // Create new link Element
+            var link = document.createElement('link');
+            // set the attributes for link element
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = params;
+            head.appendChild(link);
+        }
+       
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+<script type="text/javascript" src="dist/app-bundle-2c900b4a.js"></script></body>
+</html>
